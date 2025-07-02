@@ -1,0 +1,45 @@
+{
+    "//": "Please see readme.md and supp.pdf before reading parameters.",
+    "prefix": "exp",
+    "dataset": "cub",
+    "memory_size": 0,
+    "memory_per_class": 0,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 10,
+    "increment": 10,
+    "model_name": "DPTA-cub",
+    "convnet_type": "pretrained_vit_base_b16_224_in21k_adapter",
+    "device": ["cuda"],
+    "seed": [
+        1993
+    ],
+    "tuned_epoch": 20,
+
+
+    "init_epochs": 20,
+    "init_lr": 0.008,
+ 
+    "later_lr": 0.008,
+    "batch_size": 32,
+    "weight_decay": 0.0005,
+    "min_lr": 0,
+    "optimizer": "sgd",
+    "scheduler": "cosine",
+    "pretrained": true,
+
+    "ffn_num": 64,
+
+    "top_k": 5,
+
+    "adapter_num": -1,
+
+    "task_num": 20,
+
+    "use_res":true,
+
+    "center_lr": 0.001,
+    "cent_weight":0.001,
+
+    "first_adapt":false
+}

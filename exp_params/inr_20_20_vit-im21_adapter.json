@@ -1,0 +1,45 @@
+{
+    "//": "Please see readme.md and supp.pdf before reading parameters.",
+    "prefix": "exp",
+    "dataset": "inr",
+    "memory_size": 0,
+    "memory_per_class": 0,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 20,
+    "increment": 20,
+    "model_name": "DPTA-inr",
+    "convnet_type": "pretrained_vit_base_b16_224_in21k_adapter",
+    "device": ["cuda"],
+    "seed": [
+        1993
+    ],
+    "tuned_epoch": 20,
+
+
+    "init_epochs": 20,
+    "init_lr": 0.005,
+ 
+    "later_lr": 0.005,
+    "batch_size": 32,
+    "weight_decay": 0.005,
+    "min_lr": 0,
+    "optimizer": "radam",
+    "scheduler": "cosine",
+    "pretrained": true,
+
+    "ffn_num": 64,
+
+    "top_k": 5,
+
+    "adapter_num": -1,
+
+    "task_num": 10,
+
+    "use_res":false,
+
+    "center_lr": 0.001,
+    "cent_weight":0.0001,
+
+    "first_adapt":true
+}

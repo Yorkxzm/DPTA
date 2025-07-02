@@ -1,0 +1,65 @@
+2025-05-19 22:48:46,974 [main.py] => Dataset: vtab
+2025-05-19 22:48:46,974 [main.py] => Task name: vtab_10_10
+2025-05-19 22:48:46,974 [main.py] => Random seed: 1993
+2025-05-19 22:48:47,010 [incre_dataset.py] => class_order:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] in vtab dataset
+2025-05-19 22:48:47,010 [incre_dataset.py] => total_class_num:50 in vtab dataset
+2025-05-19 22:48:48,042 [_builder.py] => Loading pretrained weights from Hugging Face hub (timm/vit_base_patch16_224.augreg_in21k)
+2025-05-19 22:48:49,012 [_hub.py] => [timm/vit_base_patch16_224.augreg_in21k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-05-19 22:48:49,238 [vision_transformer_adapter.py] => model_types:vit_base_patch16_224_in21k
+2025-05-19 22:48:49,261 [main.py] => Training on the task 1: 
+2025-05-19 22:48:49,263 [DPTA.py] => Learning on 0-10
+2025-05-19 22:49:44,425 [DPTA.py] => Task 0, Epoch 20/20 => Loss 0.395, Train_accy 97.74
+2025-05-19 22:52:45,726 [main.py] => Dataset: vtab
+2025-05-19 22:52:45,727 [main.py] => Task name: vtab_10_10
+2025-05-19 22:52:45,727 [main.py] => Random seed: 1993
+2025-05-19 22:52:45,767 [incre_dataset.py] => class_order:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] in vtab dataset
+2025-05-19 22:52:45,767 [incre_dataset.py] => total_class_num:50 in vtab dataset
+2025-05-19 22:52:46,749 [_builder.py] => Loading pretrained weights from Hugging Face hub (timm/vit_base_patch16_224.augreg_in21k)
+2025-05-19 22:52:49,989 [_hub.py] => [timm/vit_base_patch16_224.augreg_in21k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-05-19 22:52:50,051 [vision_transformer_adapter.py] => model_types:vit_base_patch16_224_in21k
+2025-05-19 22:52:50,073 [main.py] => Training on the task 1: 
+2025-05-19 22:52:50,074 [DPTA.py] => Learning on 0-10
+2025-05-19 22:54:30,252 [DPTA.py] => Task 0, Epoch 20/20 => Loss 0.395, Train_accy 97.74
+2025-05-19 22:54:51,068 [main.py] => ACC in all 10 classes after the task 1: 0.970703125
+2025-05-19 22:54:51,068 [main.py] => Training on the task 2: 
+2025-05-19 22:54:51,070 [DPTA.py] => Learning on 10-20
+2025-05-19 22:56:34,879 [DPTA.py] => Task 1, Epoch 20/20 => Loss 0.271, Train_accy 100.00
+2025-05-19 22:57:34,948 [main.py] => ACC in all 20 classes after the task 2: 0.9446023106575012
+2025-05-19 22:57:34,948 [main.py] => Training on the task 3: 
+2025-05-19 22:57:34,950 [DPTA.py] => Learning on 20-30
+2025-05-19 23:29:29,609 [main.py] => Dataset: vtab
+2025-05-19 23:29:29,610 [main.py] => Task name: vtab_10_10
+2025-05-19 23:29:29,610 [main.py] => Random seed: 1993
+2025-05-19 23:29:29,648 [incre_dataset.py] => class_order:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] in vtab dataset
+2025-05-19 23:29:29,648 [incre_dataset.py] => total_class_num:50 in vtab dataset
+2025-05-19 23:29:35,808 [_builder.py] => Loading pretrained weights from file (downloaded_ptm/in21k.npz)
+2025-05-19 23:29:36,599 [vision_transformer_adapter.py] => model_types:vit_base_patch16_224_in21k
+2025-05-19 23:29:36,850 [incre_dataset.py] => class_order:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] in vtab dataset
+2025-05-19 23:29:36,850 [incre_dataset.py] => total_class_num:50 in vtab dataset
+2025-05-19 23:29:36,865 [main.py] => Training on the task 1: 
+2025-05-19 23:29:36,867 [DPTA.py] => Learning on 0-10
+2025-05-19 23:30:47,885 [DPTA.py] => Task 0, Epoch 20/20 => Loss 0.394, Train_accy 98.19
+2025-05-19 23:31:02,305 [main.py] => ACC in all 10 classes after the task 1: 0.970703125
+2025-05-19 23:31:02,306 [main.py] => inf time in task 1: 11.542420148849487s
+2025-05-19 23:31:02,306 [main.py] => Training on the task 2: 
+2025-05-19 23:31:02,309 [DPTA.py] => Learning on 10-20
+2025-05-19 23:32:36,696 [DPTA.py] => Task 1, Epoch 20/20 => Loss 0.275, Train_accy 100.00
+2025-05-19 23:33:11,795 [main.py] => ACC in all 20 classes after the task 2: 0.9417613744735718
+2025-05-19 23:33:11,796 [main.py] => inf time in task 2: 29.26078462600708s
+2025-05-19 23:33:11,796 [main.py] => Training on the task 3: 
+2025-05-19 23:33:11,799 [DPTA.py] => Learning on 20-30
+2025-05-19 23:35:41,908 [DPTA.py] => Task 2, Epoch 20/20 => Loss 0.308, Train_accy 98.88
+2025-05-19 23:37:24,806 [main.py] => ACC in all 30 classes after the task 3: 0.9380147457122803
+2025-05-19 23:37:24,806 [main.py] => inf time in task 3: 95.63956618309021s
+2025-05-19 23:37:24,806 [main.py] => Training on the task 4: 
+2025-05-19 23:37:24,809 [DPTA.py] => Learning on 30-40
+2025-05-19 23:45:23,218 [DPTA.py] => Task 3, Epoch 20/20 => Loss 0.166, Train_accy 95.70
+2025-05-19 23:50:38,395 [main.py] => ACC in all 40 classes after the task 4: 0.9349384903907776
+2025-05-19 23:50:38,396 [main.py] => inf time in task 4: 296.06253123283386s
+2025-05-19 23:50:38,396 [main.py] => Training on the task 5: 
+2025-05-19 23:50:38,400 [DPTA.py] => Learning on 40-50
+2025-05-19 23:52:06,427 [DPTA.py] => Task 4, Epoch 20/20 => Loss 0.644, Train_accy 100.00
+2025-05-19 23:58:54,901 [main.py] => ACC in all 50 classes after the task 5: 0.9409722089767456
+2025-05-19 23:58:54,902 [main.py] => inf time in task 5: 403.2360112667084s
+2025-05-19 23:58:54,902 [main.py] => Final ACC in all tasks: 0.9409722089767456
+2025-05-19 23:58:54,903 [main.py] => Avg ACC in all tasks: 0.945277988910675
